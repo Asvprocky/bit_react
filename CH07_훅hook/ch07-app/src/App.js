@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import UseCallback03 from './hooks/5_useCallback/UseCallback03';
-import UseReducer02 from './hooks/6_useReducer/UseReducer02';
+import UseReducer02 from './hooks/6_useReducer/UseReducer03';
 
 
 
