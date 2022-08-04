@@ -12,6 +12,12 @@ const Wrapper = styled.div`
   background-color: yellowgreen;
   border-radius: 50%;
 `;
+const SmartButton = styled.button`
+color:${props => props.dark ? 'white' : 'dark'};
+background:${props => props.dark ? 'black' : 'white'} ;
+border : 1px solid crimson;
+padding : 3px;
+`;
 
 const Btn = styled.button`
   background: #4c00ff;
@@ -27,9 +33,7 @@ function MainPage() {
   return (
     <Wrapper>
       <div>Main Page</div>
-      <Btn>
-      야옹
-      </Btn>
+      <SmartButton dark>button</SmartButton>
     </Wrapper>
   )
 }
